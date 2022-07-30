@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		026F27B32895A52F0099F7BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F27B22895A52F0099F7BD /* AppDelegate.swift */; };
 		026F27B52895A52F0099F7BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F27B42895A52F0099F7BD /* SceneDelegate.swift */; };
-		026F27B72895A52F0099F7BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F27B62895A52F0099F7BD /* ViewController.swift */; };
-		026F27BA2895A52F0099F7BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026F27B82895A52F0099F7BD /* Main.storyboard */; };
 		026F27BC2895A5320099F7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 026F27BB2895A5320099F7BD /* Assets.xcassets */; };
 		026F27BF2895A5320099F7BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026F27BD2895A5320099F7BD /* LaunchScreen.storyboard */; };
+		02E62ECE2895A65000D8A61D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E62ECD2895A65000D8A61D /* Coordinator.swift */; };
+		02E62ED22895A66E00D8A61D /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E62ED12895A66E00D8A61D /* HomeCoordinator.swift */; };
+		02E62ED42895A6C700D8A61D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E62ED32895A6C700D8A61D /* HomeViewController.swift */; };
+		02E62ED62895A84A00D8A61D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E62ED52895A84A00D8A61D /* HomeView.swift */; };
+		02E62ED82895A85200D8A61D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E62ED72895A85200D8A61D /* HomeViewModel.swift */; };
+		02E62EDD2895A94400D8A61D /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E62EDC2895A94400D8A61D /* PlayerModel.swift */; };
+		02E62EE02895AF5C00D8A61D /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E62EDF2895AF5C00D8A61D /* UIImageView.swift */; };
+		02E62EE62895B9CA00D8A61D /* WordCupProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E62EE52895B9CA00D8A61D /* WordCupProgress.swift */; };
+		02E62EE92895C02500D8A61D /* BaseJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E62EE82895C02500D8A61D /* BaseJson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		026F27AF2895A52F0099F7BD /* Desafio DIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio DIO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		026F27B22895A52F0099F7BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		026F27B42895A52F0099F7BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		026F27B62895A52F0099F7BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		026F27B92895A52F0099F7BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		026F27BB2895A5320099F7BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		026F27BE2895A5320099F7BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		026F27C02895A5320099F7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E62ECD2895A65000D8A61D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		02E62ED12895A66E00D8A61D /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		02E62ED32895A6C700D8A61D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		02E62ED52895A84A00D8A61D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		02E62ED72895A85200D8A61D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		02E62EDC2895A94400D8A61D /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		02E62EDF2895AF5C00D8A61D /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		02E62EE52895B9CA00D8A61D /* WordCupProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCupProgress.swift; sourceTree = "<group>"; };
+		02E62EE82895C02500D8A61D /* BaseJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseJson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,102 @@
 		026F27B12895A52F0099F7BD /* Desafio DIO */ = {
 			isa = PBXGroup;
 			children = (
+				026F27C62895A57A0099F7BD /* App */,
+				02E62ECA2895A62B00D8A61D /* Source */,
+			);
+			path = "Desafio DIO";
+			sourceTree = "<group>";
+		};
+		026F27C62895A57A0099F7BD /* App */ = {
+			isa = PBXGroup;
+			children = (
 				026F27B22895A52F0099F7BD /* AppDelegate.swift */,
 				026F27B42895A52F0099F7BD /* SceneDelegate.swift */,
-				026F27B62895A52F0099F7BD /* ViewController.swift */,
-				026F27B82895A52F0099F7BD /* Main.storyboard */,
 				026F27BB2895A5320099F7BD /* Assets.xcassets */,
 				026F27BD2895A5320099F7BD /* LaunchScreen.storyboard */,
 				026F27C02895A5320099F7BD /* Info.plist */,
 			);
-			path = "Desafio DIO";
+			path = App;
+			sourceTree = "<group>";
+		};
+		02E62ECA2895A62B00D8A61D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				02E62ECB2895A63C00D8A61D /* Foundation */,
+				02E62ECF2895A65F00D8A61D /* Product */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		02E62ECB2895A63C00D8A61D /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				02E62EE72895C01B00D8A61D /* Model */,
+				02E62EDE2895AF5000D8A61D /* Extensions */,
+				02E62ECC2895A64200D8A61D /* Protocols */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		02E62ECC2895A64200D8A61D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				02E62ECD2895A65000D8A61D /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		02E62ECF2895A65F00D8A61D /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				02E62ED02895A66500D8A61D /* Home */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		02E62ED02895A66500D8A61D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				02E62EE42895B9AF00D8A61D /* Components */,
+				02E62EDB2895A93600D8A61D /* Model */,
+				02E62ED12895A66E00D8A61D /* HomeCoordinator.swift */,
+				02E62ED32895A6C700D8A61D /* HomeViewController.swift */,
+				02E62ED72895A85200D8A61D /* HomeViewModel.swift */,
+				02E62ED52895A84A00D8A61D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		02E62EDB2895A93600D8A61D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02E62EDC2895A94400D8A61D /* PlayerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02E62EDE2895AF5000D8A61D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				02E62EDF2895AF5C00D8A61D /* UIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		02E62EE42895B9AF00D8A61D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				02E62EE52895B9CA00D8A61D /* WordCupProgress.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		02E62EE72895C01B00D8A61D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02E62EE82895C02500D8A61D /* BaseJson.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +228,6 @@
 			files = (
 				026F27BF2895A5320099F7BD /* LaunchScreen.storyboard in Resources */,
 				026F27BC2895A5320099F7BD /* Assets.xcassets in Resources */,
-				026F27BA2895A52F0099F7BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +238,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				026F27B72895A52F0099F7BD /* ViewController.swift in Sources */,
+				02E62ED42895A6C700D8A61D /* HomeViewController.swift in Sources */,
 				026F27B32895A52F0099F7BD /* AppDelegate.swift in Sources */,
+				02E62EE92895C02500D8A61D /* BaseJson.swift in Sources */,
+				02E62ED82895A85200D8A61D /* HomeViewModel.swift in Sources */,
+				02E62EDD2895A94400D8A61D /* PlayerModel.swift in Sources */,
+				02E62ED22895A66E00D8A61D /* HomeCoordinator.swift in Sources */,
+				02E62ED62895A84A00D8A61D /* HomeView.swift in Sources */,
+				02E62EE62895B9CA00D8A61D /* WordCupProgress.swift in Sources */,
+				02E62EE02895AF5C00D8A61D /* UIImageView.swift in Sources */,
 				026F27B52895A52F0099F7BD /* SceneDelegate.swift in Sources */,
+				02E62ECE2895A65000D8A61D /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		026F27B82895A52F0099F7BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				026F27B92895A52F0099F7BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		026F27BD2895A5320099F7BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +389,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RQ3628489F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Desafio DIO/Info.plist";
+				INFOPLIST_FILE = "Desafio DIO/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +404,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,10 +417,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RQ3628489F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Desafio DIO/Info.plist";
+				INFOPLIST_FILE = "Desafio DIO/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +432,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
